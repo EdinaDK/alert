@@ -12,7 +12,6 @@ export function Alert({text, delay}: AlertProps) {
 
     useEffect(() => {
         const timeId = setTimeout(() => {
-            // After 3 seconds set the show value to false
             setShow(false)
         }, delay*1000)
 
